@@ -291,13 +291,21 @@
 
 .khoomi__collection-product-wrapper {
   padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.khoomi__collection-product-col {
+  display: flex;
+  padding-bottom: 42px;
 }
 
 .khoomi__collection-cmn-box {
-  max-width: 255px;
-  height: 313px;
+  min-width: 255px;
   background-color: #f5f5f5;
   border-radius: 6px;
+  overflow: hidden;
+  margin: 0 15px;
 }
 
 .khoomi__collection-pro-img img {
@@ -310,4 +318,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 20px;
+}
+
+.khoomi__collection-product-title {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #111111;
 }
