@@ -91,7 +91,7 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 40%;
+  height: 50%;
   background-color: #f8f8f8;
   z-index: 1;
 }
@@ -128,6 +128,7 @@
   padding-top: 40px;
   max-width: 1250px;
   width: 100%;
+  margin: 0 auto;
 }
 
 .khoomi__cmn-feature-box {
@@ -266,7 +267,7 @@
 }
 
 .khoomi__new-collection-wrapper {
-  padding-top: 80px;
+  padding: 80px 0;
 }
 
 .khoomi__collection-text {
@@ -299,14 +300,76 @@
 .khoomi__collection-product-col {
   display: flex;
   padding-bottom: 42px;
+  width: 50%;
 }
 
 .khoomi__collection-cmn-box {
   min-width: 255px;
+  height: 313px;
   background-color: #f5f5f5;
   border-radius: 6px;
   overflow: hidden;
   margin: 0 15px;
+  margin-bottom: 42px;
+}
+
+.khoomi__collection-right-cmn-box {
+  min-width: 540px;
+  height: 670px;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 0 15px;
+}
+
+.khoomi__collection-right-img img {
+  width: 531px;
+  height: 500px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.khoomi__collection-btn-wrapper {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-sale {
+  background-color: #111111;
+  min-width: 98px;
+  display: inline-block;
+  border-radius: 15px;
+  padding: 6px 0;
+  color: #fff;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 21px;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.khoomi__offer-product-details {
+  padding: 20px;
+}
+
+.khoomi__offer-product-title {
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #111111;
+  margin-bottom: 8px;
+}
+
+.khoomi__offer-brand {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 32px;
+  color: #7a7a7a;
 }
 
 .khoomi__collection-pro-img img {
@@ -328,4 +391,71 @@
   font-weight: 500;
   line-height: 32px;
   color: #111111;
+}
+
+.khoomi__top-product-wrapper {
+  padding-top: 120px;
+  padding-bottom: 160px;
+  text-align: center;
+}
+
+.khoomi__top-product-text {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 21px;
+}
+
+.khoomi__top-product-title {
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.khoomi__top-products-wrapper {
+  padding-top: 40px;
+}
+
+.khoomi__top-products-col {
+  display: flex;
+  max-width: 1208px;
+  width: 100%;
+  margin: 0 auto 65px;
+}
+
+.khoomi__top-cmn-box-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.khoomi__top-products-cmn-box {
+  max-width: 269px;
+  height: 269px;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.khoomi__top-product-img img {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.khoomi__product-content-wrapper {
+  max-width: 269px;
+  padding-top: 1rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.khoomi__top-pro-name {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
