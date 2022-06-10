@@ -13,6 +13,10 @@
   justify-content: space-between;
 }
 
+.khoomi__footer-col-1 {
+  width: 35%;
+}
+
 .khoomi__footer-content {
   max-width: 255px;
   width: 100%;

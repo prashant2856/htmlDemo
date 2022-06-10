@@ -7,6 +7,8 @@
 	<title>Khoomi</title>
 	<link rel="stylesheet" href="css/app.css">
 	<link rel="stylesheet" href="fontawesome/css/all.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -18,16 +20,17 @@
 					<div class="brand-logo">
 						<img src="images/logo.jpg" alt="Logo">
 					</div>
+
 					<form class="search-input-form" action="#">
 						<input type="text" class="form-control" placeholder="Search For Products, Brands & Categories"
 							name="search2">
-						<button type="submit"><i class="fa fa-magnifying-glass search-icon"></i></button>
+						<button type="submit" class="search-icon"><i class="fa fa-magnifying-glass"></i></button>
 					</form>
 
 					<div class="icon">
 						<span class="icon-heart"><i class="far fa-heart"></i></span>
 						<span class="icon-user"><i class="far fa-user"></i></span>
-						<span class="icon-cart"><i class="fas fa-cart-shopping"></i></span>
+						<span class="icon-cart"><img src="images/cart.svg" alt="Cart"></span>
 					</div>
 
 				</div>
@@ -39,14 +42,14 @@
 					<div class="category-btn-wrap">
 						<div class="dropdown">
 							<button class="dropbtn">
-								<i class="fa fa-align-justify"></i>
+								<i class="fa fa-align-justify dropdown-toggle"></i>
 								<span>All Categories</span>
-								<i class="fa fa-angle-down"></i>
+								<i class="fa fa-angle-down dropdown-toggle"></i>
 							</button>
 							<div class="dropdown-content">
-								<a href="#">Link 1</a>
-								<a href="#">Link 2</a>
-								<a href="#">Link 3</a>
+								<a href="#">Mobiles</a>
+								<a href="#">Laptops</a>
+								<a href="#">Home Appliances</a>
 							</div>
 						</div>
 					</div>
@@ -75,7 +78,7 @@
 				<p class="khoomi__banner-text">A transformative triple‑camera system that adds tons of capability
 					without complexity</p>
 
-				<a href="#" class="btn btn-buy">Buy Now</a>
+				<a href="#" class="btn btn-buy">Buy Now <img src="images/boat.svg" alt="boat" class="boat-icon"></a>
 				<a href="#" class="btn btn-dark">With $599 with trade-in</a>
 			</div>
 		</div>
@@ -93,33 +96,33 @@
 						<img src="images/pro1.jpg" alt="Watch-1">
 					</figure>
 					<h6 class="khoomi__cmn-img-title">Single Tour</h6>
-					<a href="#" class="btn btn-price">$990</a>
+					<a href="#" class="btn btn-orange btn-price">$990</a>
 				</div>
 				<div class="khoomi__cmn-feature-box">
 					<figure class="khoomi__cmn-img-wrapper">
 						<img src="images/pro2.jpg" alt="Watch-2">
 					</figure>
 					<h6 class="khoomi__cmn-img-title">Single Tour</h6>
-					<a href="#" class="btn btn-price">$990</a>
+					<a href="#" class="btn btn-orange btn-price">$990</a>
 				</div>
 				<div class="khoomi__cmn-feature-box">
 					<figure class="khoomi__cmn-img-wrapper">
 						<img src="images/pro1.jpg" alt="Watch-3">
 					</figure>
 					<h6 class="khoomi__cmn-img-title">Single Tour</h6>
-					<a href="#" class="btn btn-price">$990</a>
+					<a href="#" class="btn btn-orange btn-price">$990</a>
 				</div>
 				<div class="khoomi__cmn-feature-box">
 					<figure class="khoomi__cmn-img-wrapper">
 						<img src="images/pro2.jpg" alt="Watch-4">
 					</figure>
 					<h6 class="khoomi__cmn-img-title">Single Tour</h6>
-					<a href="#" class="btn btn-price">$990</a>
+					<a href="#" class="btn btn-orange btn-price">$990</a>
 				</div>
 			</div>
-			<div class="khoomi__features-btn-warpper">
-				<a href="#" class="btn btn-product">Explore Other Products</a>
-			</div>
+		</div>
+		<div class="khoomi__features-btn-warpper">
+			<a href="#" class="btn btn-product">Explore Other Products</a>
 		</div>
 	</section>
 	<!-- Product Recommended Section End -->
@@ -159,7 +162,7 @@
 								</figure>
 								<div class="khoomi__collection-product-detail">
 									<span class="khoomi__collection-product-title">Nike Air Force 1</span>
-									<a href="#" class="btn btn-price">$99</a>
+									<a href="#" class="btn btn-white btn-price">$99</a>
 								</div>
 							</div>
 							<div class="khoomi__collection-cmn-box">
@@ -168,7 +171,7 @@
 								</figure>
 								<div class="khoomi__collection-product-detail">
 									<span class="khoomi__collection-product-title">NikeCourt Air</span>
-									<a href="#" class="btn btn-price">$99</a>
+									<a href="#" class="btn btn-white btn-price">$99</a>
 								</div>
 							</div>
 						</div>
@@ -179,7 +182,7 @@
 								</figure>
 								<div class="khoomi__collection-product-detail">
 									<span class="khoomi__collection-product-title">Nike Air Force 1</span>
-									<a href="#" class="btn btn-price">$99</a>
+									<a href="#" class="btn btn-white btn-price">$99</a>
 								</div>
 							</div>
 							<div class="khoomi__collection-cmn-box">
@@ -188,7 +191,7 @@
 								</figure>
 								<div class="khoomi__collection-product-detail">
 									<span class="khoomi__collection-product-title">NikeCourt Air</span>
-									<a href="#" class="btn btn-price">$99</a>
+									<a href="#" class="btn btn-white btn-price">$99</a>
 								</div>
 							</div>
 						</div>
@@ -198,7 +201,7 @@
 						<div class="khoomi__collection-right-cmn-box">
 							<div class="khoomi__collection-btn-wrapper">
 								<a href="#" class="btn btn-sale">SALE -50%</a>
-								<a href="#" class="btn btn-price">$599</a>
+								<a href="#" class="btn btn-white btn-price">$599</a>
 							</div>
 
 							<figure class="khoomi__collection-right-img">
@@ -214,11 +217,9 @@
 
 				</div>
 			</div>
-
-			<div class="khoomi__features-btn-warpper">
-				<a href="#" class="btn btn-product">Explore Other Products</a>
-			</div>
-
+		</div>
+		<div class="khoomi__features-btn-warpper">
+			<a href="#" class="btn btn-product">Explore Other Products</a>
 		</div>
 	</section>
 
@@ -253,7 +254,7 @@
 							</div>
 							<div class="khoomi__product-content-wrapper">
 								<span class="khoomi__top-pro-name">Nike Court Air</span>
-								<a href="#" class="btn btn-price">$580</a>
+								<a href="#" class="btn btn-orange btn-price">$580</a>
 							</div>
 						</div>
 
@@ -265,7 +266,7 @@
 							</div>
 							<div class="khoomi__product-content-wrapper">
 								<span class="khoomi__top-pro-name">Nike Air Force 1</span>
-								<a href="#" class="btn btn-price">$580</a>
+								<a href="#" class="btn btn-orange btn-price">$580</a>
 							</div>
 						</div>
 
@@ -277,7 +278,7 @@
 							</div>
 							<div class="khoomi__product-content-wrapper">
 								<span class="khoomi__top-pro-name">Nike SB Zoom </span>
-								<a href="#" class="btn btn-price">$580</a>
+								<a href="#" class="btn btn-orange btn-price">$580</a>
 							</div>
 						</div>
 						<div class="khoomi__top-cmn-box-wrapper">
@@ -288,7 +289,7 @@
 							</div>
 							<div class="khoomi__product-content-wrapper">
 								<span class="khoomi__top-pro-name">Nike Signal</span>
-								<a href="#" class="btn btn-price">$580</a>
+								<a href="#" class="btn btn-orange btn-price">$580</a>
 							</div>
 						</div>
 
@@ -302,7 +303,7 @@
 							</div>
 							<div class="khoomi__product-content-wrapper">
 								<span class="khoomi__top-pro-name">Nike Court Air</span>
-								<a href="#" class="btn btn-price">$580</a>
+								<a href="#" class="btn btn-orange btn-price">$580</a>
 							</div>
 						</div>
 
@@ -314,7 +315,7 @@
 							</div>
 							<div class="khoomi__product-content-wrapper">
 								<span class="khoomi__top-pro-name">Nike Air Force 1</span>
-								<a href="#" class="btn btn-price">$580</a>
+								<a href="#" class="btn btn-orange btn-price">$580</a>
 							</div>
 						</div>
 
@@ -326,7 +327,7 @@
 							</div>
 							<div class="khoomi__product-content-wrapper">
 								<span class="khoomi__top-pro-name">Nike SB Zoom </span>
-								<a href="#" class="btn btn-price">$580</a>
+								<a href="#" class="btn btn-orange btn-price">$580</a>
 							</div>
 						</div>
 						<div class="khoomi__top-cmn-box-wrapper">
@@ -337,7 +338,7 @@
 							</div>
 							<div class="khoomi__product-content-wrapper">
 								<span class="khoomi__top-pro-name">Nike Signal</span>
-								<a href="#" class="btn btn-price">$580</a>
+								<a href="#" class="btn btn-orange btn-price">$580</a>
 							</div>
 						</div>
 
@@ -412,7 +413,33 @@
 			</div>
 		</div>
 	</section>
-
+	<script type="text/javascript">
+		jQuery(document).ready(function (e) {
+			function t(t) {
+				e(t).bind("click", function (t) {
+					t.preventDefault();
+					e(this).parent().fadeOut()
+				})
+			}
+			e(".dropdown-toggle").click(function () {
+				var t = e(this).parents(".dropdown").children(".dropdown-content").is(":hidden");
+				e(".dropdown .dropdown-content").hide();
+				e(".dropdown .dropdown-toggle").removeClass("active");
+				if (t) {
+					e(this).parents(".dropdown").children(".dropdown-content").toggle().parents(".dropdown")
+						.children(".dropdown-toggle").addClass("active")
+				}
+			});
+			e(document).bind("click", function (t) {
+				var n = e(t.target);
+				if (!n.parents().hasClass("dropdown")) e(".dropdown .dropdown-content").hide();
+			});
+			e(document).bind("click", function (t) {
+				var n = e(t.target);
+				if (!n.parents().hasClass("dropdown")) e(".dropdown .dropdown-toggle").removeClass("active");
+			})
+		});
+	</script>
 </body>
 
 </html>
