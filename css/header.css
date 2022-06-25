@@ -167,10 +167,6 @@ a.cart > span.cart-count{
   background-color: rgba(112, 112, 112, 0.1);
 }
 
-.navigation-menu {
-  overflow: hidden;
-}
-
 .navigation-menu ul {
   list-style: none;
   display: flex;
@@ -187,6 +183,17 @@ a.cart > span.cart-count{
   padding: 0 35px;
   cursor: pointer;
   color: #302F2F;
+  display: inline-block;
+}
+
+.navigation-menu ul li a::after{
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
 }
 
 .navigation-menu ul li .active {
@@ -195,7 +202,7 @@ a.cart > span.cart-count{
 }
 
 .navigation-menu ul li a:hover {
+  width: 100%;
   border-bottom: 3px solid #ff4f04;
   color: #ff4f04;
-
 }
