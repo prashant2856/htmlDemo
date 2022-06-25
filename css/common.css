@@ -1,21 +1,38 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: "Poppins";
-  font-size: 1rem;
-  font-weight: 400;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    color: #302f2f;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+a {
+    text-decoration: none;
 }
 
 .container {
-  max-width: 1366px;
-  width: 100%;
-  margin: 0 auto;
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .container.container-1110 {
-  max-width: 1110px;
+    max-width: 1110px;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
 }

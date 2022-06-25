@@ -1,0 +1,19 @@
+h1,
+h2,
+h3,
+h5,
+h6 {
+    font-family: "Poppins";
+    color: #111111;
+    font-weight: 600;
+}
+h2,
+.h2 {
+    font-size: 30px;
+}
+h1 span,
+h2 span,
+h3 span,
+h5 span,
+h6 span {
+}
